@@ -10,4 +10,5 @@ DEBUG = True
 
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = '<Put your local database url>'
+# The owner of my local database is postgres , the password is 'admin' , replace this connection string info with yours.
+SQLALCHEMY_DATABASE_URI = 'postgres://postgres:admin@localhost:5432/fyyur'
