@@ -1,0 +1,13 @@
+# Steps to migrate database : 
+
+1 - Make sure that Flask-Migrate is installed
+    pip install Flask-Migrate
+
+2 - add migration folder to application
+    flask db init
+
+3 - Generate migration 
+    flask db migrate -m "fyyur migration"
+
+4 - If models changed , use : 
+    flask db upgrade
